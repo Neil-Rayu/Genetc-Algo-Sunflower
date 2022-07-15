@@ -24,17 +24,17 @@ The variable multi changes, going back to the example before the flower is encou
 
 There are a couple functions under the NaturalGeneticAlgorithim class;
 
-Generate: Creates a random chromosome of desired length
+**Generate**: Creates a random chromosome of desired length
 
-Select: Takes a list of chromosomes and fitness and returns the two chromoomes with the best fitness. (might be changed to a roulette system)
+**Select**: Takes a list of chromosomes and fitness and returns the two chromoomes with the best fitness. (might be changed to a roulette system)
 
-Crossover: Takes two chromosomes and picks a random int from 1 to 10, and splits them at the spot and switches
+**Crossover**: Takes two chromosomes and picks a random int from 1 to 10, and splits them at the spot and switches
 example: random num: 7, 0001011|111 & 0001001|101 => 0001011|101 & 0001001|111
 
-Mutate: A 0.005 probability for a mutation where a 1 is swapped to 0
+**Mutate**: A 0.005 probability for a mutation where a 1 is swapped to 0
 
-SimulateApperance: Using drawn blocks I generate sunflowers to repersent certain heights and root lengths
+**SimulateApperance**: Using drawn blocks I generate sunflowers to repersent certain heights and root lengths
 
-NaturalRun: using all previous methods this will first select two chromosomes, cross them over, and create a new pool of more fit sunflowers
+**NaturalRun**: using all previous methods this will first select two chromosomes, cross them over, and create a new pool of more fit sunflowers
 
 
