@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Gen Test</title>
+  </head>
+  <body>
+    <div class="slidecontainer">
+      <input
+        type="range"
+        min="-100"
+        max="100"
+        value="0"
+        class="slider"
+        id="shadeSlider"
+      />
+      <span id="shadeVal" style="font-size: x-large"></span>
+      <input
+        type="range"
+        min="-100"
+        max="100"
+        value="0"
+        class="slider"
+        id="soilSlider"
+      />
+      <span id="soilVal" style="font-size: x-large"></span>
+      <input
+        type="range"
+        min="0"
+        max="100"
+        value="50"
+        class="slider"
+        id="birdSlider"
+      />
+      <span id="birdVal" style="font-size: x-large"></span>
+      <input
+        type="range"
+        min="-100"
+        max="100"
+        value="0"
+        class="slider"
+        id="waterSlider"
+      />
+      <span id="waterVal" style="font-size: x-large"></span>
+    </div>
+    <div class="top-text">
+      <button id="startPool">Create Starting Pool</button>
+    </div>
+
+    <div class="flowersCont" id="flowersContTop"></div>
+    <div class="flowersCont" id="flowersContBottom"></div>
+
+    <button id="nextGen">Next Generation</button>
+    <script src="index.js"></script>
+  </body>
+</html>

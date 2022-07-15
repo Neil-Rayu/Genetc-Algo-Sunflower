@@ -1,0 +1,52 @@
+.stemCont {
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  padding-left: 10px;
+}
+
+.rootCont {
+  display: flex;
+  flex-direction: column;
+  width: 50px;
+  padding-right: 250px;
+}
+
+.flowersCont {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+#flowersContTop {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+#flowersContBottom {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-left: 125px;
+}
+
+.flowerCont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider {
+  width: 55%;
+  height: 10%;
+}
+
+button {
+  font-size: large;
+}
+
+.top-text {
+  display: flex;
+  flex-direction: column;
+}
