@@ -8,7 +8,7 @@ The first chromosome repersents height of the sunflower, with each '1' adding on
 
 To give an example on how the fitness of the flower can be found, using the enviormental conidtions, when there is high ammounts of blockage/shade the flower needs to grow taller to get sunlight, but when there is amplpe sun the flower is discouraged to grow taller as it takes more nutrients
 
-the formula used for fitness is here:
+The formula used for fitness is here:
 
 ```
 let fitness =
