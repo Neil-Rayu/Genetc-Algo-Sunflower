@@ -1,7 +1,7 @@
-let shade;
-let soilHealth;
-let birdCnt;
-let waterFall;
+let shade = 0.5;
+let soilHealth = 0.5;
+let birdCnt = 0.1;
+let waterFall = 0.5;
 console.log(shade, soilHealth, birdCnt, waterFall);
 // document.getElementById('envCont').innerText = `Shade Amount: ${shade.toFixed(
 //   2
