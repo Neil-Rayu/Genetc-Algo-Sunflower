@@ -1,5 +1,5 @@
 # Genetc-Algo-Sunflower
-This is a simulation of a sunfllowers evolution given certain evniormental conditions, it is simulated via a genetic algorthim using a loss/fotness function and corssing over, etc.
+This is a simulation of a sunfllowers evolution given certain evniormental conditions, it is simulated via a genetic algorthim using a loss/fitness function and corssing over, etc.
 
 In this simulation each sunflower has a 3 chromosomes of length 10, these chromsomoes are repersented as a string of binary;
 i.e: ['1000100111', '1001101100', '1111010011']
